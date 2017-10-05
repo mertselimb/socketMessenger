@@ -24,3 +24,7 @@ io.on('connection', function (socket) {
 http.listen(3000, function () {
     console.log('listening on *:3000');
 });
+
+// app.listen(process.env.PORT , process.envIP,function(){
+//   console.log("socketMessenger has started!") ;
+// });
